@@ -1,1 +1,5 @@
-Temperature Change Analysis
+                                      Temperature Change Analysis and Predictive Modeling
+
+This project explores the prediction of temperature changes using historical data from 1961 to 2019, employing various supervised learning models. The dataset comprises 9,656 records with 66 columns, covering temperature changes across different regions and periods. After thorough preprocessing, outlier handling for definite models, and dimensionality reduction using PCA, models were selected and evaluated. Regression models such as Ridge Regression, Decision Tree, Random Forest, SVR, and XGBoost were utilized to visualize trends, compare performances, and assess robustness. Evaluation metrics like MSE, MAE, RMSE, and MAPE provided a comprehensive understanding of model strengths and weaknesses. Bootstrap resampling techniques further enhanced robustness assessment. 
+
+XGBoost demonstrated superior accuracy, with Random Forest and Decision Tree performing well. Model stability was assessed through feature importance analysis, highlighting the reliability of identified key contributors.
